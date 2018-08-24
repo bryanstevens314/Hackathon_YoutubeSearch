@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+
+        </div>
+        <div class="leftBar">
+            <div id="rock" class="genre">
+                <h1>Rock</h1>
+            </div>
+
+            <div id="pop" class="genre">
+                <h1>Pop</h1>
+            </div>
+
+            <div id="electronic" class="genre">
+                <h1>Electronic</h1>
+            </div>                          
+        </div>
+        <div class="content">
+            <h1 id="data"></h1>
+            <div class="navContent">
+                <div id="prev" class = "navButton">Prev</div>
+                <div id="current" class = "navButton"> </div>
+                <div id="next" class = "navButton">Next</div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+
+    </body>
+</html>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+    let url1 = "https://www.googleapis.com/youtube/v3/search";
+    let url ="https://www.googleapis.com/youtube/v3/search?part=snippet&order=viewCount&q=skateboarding+dog&type=video&videoDefinition=high";
+    $.ajax({
+        url: url,
+        dataType: 'JSONP',
+        jsonpCallback: 'callback',
+        type: 'GET',
+        success: function (data) {
+            console.log(data);
+        }
+    });
+</script> -->
